@@ -1,6 +1,6 @@
 Name:		python-pydrive2
 Version:	1.21.3
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/p/pydrive2/pydrive2-%{version}.tar.gz
 Summary:	Google Drive API made easy. Maintained fork of PyDrive.
 URL:		https://pypi.org/project/pydrive2/
@@ -12,6 +12,9 @@ BuildArch:	noarch
 
 %description
 Google Drive API made easy. Maintained fork of PyDrive.
+
+%patchlist
+pydrive2-relax-version-requirements.patch
 
 %files
 %{py_sitedir}/pydrive2

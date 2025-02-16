@@ -1,0 +1,14 @@
+diff -up python-pydrive2-1.21.3/setup.py.omv~ python-pydrive2-1.21.3/setup.py
+--- python-pydrive2-1.21.3/setup.py.omv~	2025-02-16 01:21:07.831103570 +0100
++++ python-pydrive2-1.21.3/setup.py	2025-02-16 01:25:53.950540147 +0100
+@@ -40,8 +40,8 @@ setup(
+         "oauth2client >= 4.0.0",
+         "PyYAML >= 3.0",
+         # https://github.com/iterative/PyDrive2/issues/361
+-        "cryptography<44",
+-        "pyOpenSSL >= 19.1.0, <=24.2.1",
++        "cryptography",
++        "pyOpenSSL >= 19.1.0",
+     ],
+     extras_require={
+         "fsspec": [
