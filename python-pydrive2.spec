@@ -6,7 +6,6 @@ Summary:	Google Drive API made easy. Maintained fork of PyDrive.
 URL:		https://pypi.org/project/pydrive2/
 License:	Apache License 2.0
 Group:		Development/Python
-BuildRequires:	python
 BuildSystem:	python
 BuildArch:	noarch
 
