@@ -8,6 +8,7 @@ License:	Apache License 2.0
 Group:		Development/Python
 BuildSystem:	python
 BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:	python%{pyver}dist(setuptools-scm)
 BuildArch:	noarch
 
 %description
@@ -18,4 +19,4 @@ pydrive2-relax-version-requirements.patch
 
 %files
 %{py_sitedir}/pydrive2
-%{py_sitedir}/PyDrive2-*.*-info
+%{py_sitedir}/pydrive2-%{version}.dist-info
